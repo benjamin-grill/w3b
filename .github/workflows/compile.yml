@@ -28,3 +28,6 @@ jobs:
       
       - name: Run the compilation script
         run: ./build/compile.sh
+
+      - name: Print current working directory
+        run: pwd

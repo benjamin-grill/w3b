@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -r VERSION < version
+read -r VERSION < ./build/version
 
 SOURCE="./source/w3b.scss"
 TARGET="./css"

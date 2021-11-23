@@ -26,5 +26,5 @@ jobs:
       - name: Change file permission
         run: chmod +x ./build/compile.sh
       
-      - name: Run a one-line script
+      - name: Run the compilation script
         run: ./build/compile.sh

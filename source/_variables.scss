@@ -1,0 +1,44 @@
+
+@use 'sass:map';
+
+// prefix for CSS :root variables
+
+$prefix: w3b;
+
+
+// options
+
+$opt-font-family: 'sans-serif';
+$opt-export-colors: true;
+
+
+// color system
+
+$color-white: #fff;
+
+
+// fonts
+
+$font-family-sans-serif: "'Segeo UI', 'Tahoma', 'Verdana'";
+$font-family-mono-space: "'Liberation Mono', 'Courier New'";
+
+$font-size-base: 1rem;
+$font-size-headings: (
+    'h1': 2.25em,
+    'h2': 1.80em,
+    'h3': 1.58em,
+    'h4': 1.35em,
+    'h5': 1.13em,
+    'h6': 1.00em
+);
+$font-size-displays: (
+    'd1': 6.90em,
+    'd2': 6.36em,
+    'd3': 5.20em,
+    'd4': 4.05em
+);
+
+$font-weight-base: 400;
+$font-weight-heading: 500;
+$font-weight-display: 300;
+

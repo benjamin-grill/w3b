@@ -1,0 +1,14 @@
+
+
+:root {
+
+    @if $opt-export-colors {
+        @each $name, $color in (
+            'white': $color-white
+        ) {
+            --#{$prefix}-color-#{$name}: #{$color};
+        }
+    }
+
+}
+

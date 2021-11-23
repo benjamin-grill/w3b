@@ -1,0 +1,17 @@
+
+
+html { font-family: $opt-font-family; }
+
+// switch - case!
+@if $opt-font-family == 'sans-serif' {
+    body { font-family: unquote($font-family-sans-serif), sans-serif; }
+}
+@else if $opt-font-family == 'mono-space' {
+    body { font-family: unquote($font-family-mono-space), monospace; }
+}
+
+
+body {
+    font-size: $font-size-base;
+    font-weight: $font-weight-base;
+}

@@ -20,6 +20,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Lists the current directory
+        run: ls -la
+
       - name: Change file permission
         run: chmod +x ./build/compile.sh
       
